@@ -1,16 +1,8 @@
-# similarity_hindi
-Exploring representations for word similarity in Hindi
+# Word Similarity Dataset for Hindi (RG-63)
+
+This repository contains the word similarity dataset for Hindi based on a translation of the English RG-65 dataset (Rubenstein and Goodenough, 1965)
 
 
-09-07-2020
+If you use this dataset, please cite our paper below:-
 
-* Discussed the paper on Word Similarity Datasets [link](https://www.aclweb.org/anthology/W17-0811/) and found that they have probably combined the RG-65 and WordSim Datasets fr Hindi (and perhaps other languages) using a 10 point scale
-* Decided to go with the integer and average values of the scale as done in the SemEval [task guidelines](http://lcl.uniroma1.it/similarity-datasets/). 
-* Survey will have practice questions and collect demographic info about language background, age, gender
-* Will probably need to include both similarity datasets for evaluation
-
-30-6-2020
-
-* Discussion about overall goals of the task
-* Todo for this week upto 4th July: translate the RG65 dataset into English
-* Next meeting: 6th July
+Bhatia Kushagra, Divyanshu Aggarwal and Ashwini Vaidya. 2021. Fine-tuning distributional semantic models for closely related languages. In the Proceedings of VarDial- Eighth Workshop on NLP for Similar Languages, Varieties and Dialects at EACL 2021 
